@@ -3,7 +3,6 @@ from rest_framework.serializers import (
     SlugRelatedField,
     ReadOnlyField,
     CurrentUserDefault,
-
 )
 from rest_framework.validators import ValidationError, UniqueTogetherValidator
 
